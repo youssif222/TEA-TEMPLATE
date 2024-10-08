@@ -1,0 +1,768 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  /* colors */
+  --Primary: #282828;
+  --On-Primary: #ffffff;
+  --Secondary: #c3b212;
+  --On-Secondary: #000000;
+  --Background: #fefefe;
+  --Background-Variant: #f4f4f4;
+  --Outline: #a0a0a0;
+  /* fonts */
+  --Primary-font-family: "Montserrat", sans-serif;
+  --secondary-font-family: "Prosto One", sans-serif;
+}
+
+body {
+  background-color: var(--Background);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+/* largeeeeeeeeeeeeeeeeeeeeee */
+@media (min-width: 769px) {
+  .container1 {
+    width: 1280px;
+  }
+  /* HEADER */
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .header .container ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 511px;
+  }
+  .header .container ul a {
+    text-decoration: none;
+  }
+  .header .container ul li {
+    font-family: var(--Primary-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: var(--Primary);
+  }
+  .header .container .logo {
+    width: 192px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .container div:nth-of-type(1) h5 {
+    font-family: var(--secondary-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    width: 136px;
+    color: var(--Primary);
+  }
+  .header .container div:nth-of-type(1) img {
+    width: 36px;
+    height: 36px;
+  }
+
+  .header .container div:nth-of-type(3) {
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .container div:nth-of-type(3) img:nth-of-type(1) {
+    width: 18px;
+    height: 18px;
+  }
+  .header .container div:nth-of-type(3) img:nth-of-type(2) {
+    width: 16px;
+    height: 16px;
+  }
+  .header .container div:nth-of-type(3) a img {
+    width: 18px;
+    height: 21px;
+  }
+  .header .container div:nth-of-type(3) img:nth-of-type(3) {
+    display: none;
+  }
+  .header .container div:nth-of-type(3) {
+    position: relative;
+  }
+  /* menu barrrrrrrrrrrrr */
+  .header .container div:nth-of-type(3) .menu-bar {
+    display: block;
+  }
+  /* menu barrrrrrrrrrrrr */
+  .header .container div:nth-of-type(3) .menu-bar {
+    display: none;
+    width: 465px;
+    height: 714px;
+    right: -60px;
+    top: -2px;
+    background-color: var(--Background);
+    position: absolute;
+    z-index: 1;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .closed {
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .closed span {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .closed img {
+    width: 10.5px;
+    height: 10.5px;
+    display: none;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .first-product {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    height: 71px;
+    margin: 25px;
+    gap: 26px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .first-product img {
+    width: 71px;
+    height: 71px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .first-product .details {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .first-product .details .one {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .header
+    .container
+    div:nth-of-type(3)
+    .menu-bar
+    .first-product
+    .details
+    .one
+    div:nth-of-type(1) {
+    width: 200px;
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+  }
+  .header
+    .container
+    div:nth-of-type(3)
+    .menu-bar
+    .first-product
+    .details
+    .one
+    div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .header
+    .container
+    div:nth-of-type(3)
+    .menu-bar
+    .first-product
+    .details
+    .one
+    div:nth-of-type(2)
+    i {
+    font-size: 22px;
+    color: var(--Primary);
+    font-size: 22px;
+    text-align: center;
+  }
+  .header
+    .container
+    div:nth-of-type(3)
+    .menu-bar
+    .first-product
+    .details
+    .one
+    div:nth-of-type(2)
+    span {
+    font-size: 22px;
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .first-product .details .two {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header
+    .container
+    div:nth-of-type(3)
+    .menu-bar
+    .first-product
+    .details
+    .two
+    div {
+    font-family: var(--Primary-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    height: 237px;
+    width: 400px;
+    margin: 25px;
+    align-content: center;
+    align-items: center;
+    margin-top: 60%;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .one {
+    width: 350px;
+    border: 1px solid var(--Outline);
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .two {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .two span {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .three {
+    display: none;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .four {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .four span {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .five {
+    width: 350px;
+    border: 1px solid var(--Outline);
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase .six {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  .header
+    .container
+    div:nth-of-type(3)
+    .menu-bar
+    .purchase
+    .six
+    span:nth-of-type(1) {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .header
+    .container
+    div:nth-of-type(3)
+    .menu-bar
+    .purchase
+    .six
+    span:nth-of-type(2) {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase a {
+    width: 400px;
+    background-color: var(--Primary);
+    text-align: center;
+    height: 56px;
+  }
+  .header .container div:nth-of-type(3) .menu-bar .purchase a button {
+    width: 400px;
+    background-color: inherit;
+    text-align: center;
+    height: 56px;
+    color: var(--On-Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+  }
+
+  .header .container div:nth-of-type(3):hover .menu-bar {
+    display: none;
+  }
+  /* second box */
+  .container1 .second-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin-left: 70px;
+    gap: 29px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .container1 .second-box span:nth-of-type(1) {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  .container1 .second-box span:nth-of-type(2) {
+    width: 250px;
+    border: 1px solid var(--Outline);
+  }
+  .container1 .second-box span:nth-of-type(3) {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  .container1 .second-box span:nth-of-type(4) {
+    width: 250px;
+    border: 1px solid var(--Outline);
+  }
+  .container1 .second-box span:nth-of-type(5) {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+  /* sectionnnnnnnnnnnnnnn */
+  .container1 section {
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 98px;
+  }
+  .container1 section .form {
+    display: flex;
+    flex-direction: column;
+    width: 264px;
+    height: 440px;
+    margin-left: 75px;
+    margin-top: 55px;
+  }
+  .container1 section .form .zero {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 12px;
+  }
+  .container1 section .form .one {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 264px;
+    margin-bottom: 40px;
+  }
+  .container1 section .form .one span:nth-of-type(1) {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+  }
+  .container1 section .form .one span:nth-of-type(2) {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .container1 section .form a {
+    color: var(--Secondary);
+    margin-left: 21px;
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+  }
+
+  /* payment type */
+  .container1 section .payment {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 49px;
+    margin-left: 25px;
+  }
+  .container1 section .payment .one {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 26px;
+  }
+  .container1 section .payment .two {
+    width: 360px;
+    height: 56px;
+    background-color: var(--On-Primary);
+    border: 1px solid var(--Outline);
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .container1 section .payment .three {
+    border: 1px solid var(--Outline);
+    width: 360px;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  .container1 section .payment .three .credit {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    margin-top: 21px;
+    margin-bottom: 50px;
+  }
+  .container1 section .payment .three .credit span {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+  }
+  .container1 section .payment .three .credit img {
+    width: 30px;
+    height: 20px;
+  }
+  .container1 section .payment .three form .first {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  .container1 section .payment .three form .first label {
+    width: 116px;
+    height: 24px;
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .container1 section .payment .three form .first input {
+    width: 255px;
+    height: 24px;
+    color: var(--Outline);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid var(--Outline);
+  }
+  .container1 section .payment .three form .second {
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+  }
+  .container1 section .payment .three form .second div:nth-of-type(1) {
+    width: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .container1 section .payment .three form .second div:nth-of-type(1) label {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 108px;
+  }
+  .container1 section .payment .three form .second div:nth-of-type(1) input {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 108px;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid var(--Outline);
+  }
+  .container1 section .payment .three form .second div:nth-of-type(2) {
+    width: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .container1 section .payment .three form .second div:nth-of-type(2) label {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 107px;
+  }
+  .container1 section .payment .three form .second div:nth-of-type(2) input {
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 107px;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid var(--Outline);
+    color: var(--Outline);
+  }
+  .container1 section .payment .last {
+    width: 360px;
+    height: 56px;
+    font-family: var(--Primary-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: var(--Primary);
+    background-color: var(--On-Primary);
+  }
+
+  /* order */
+  .container1 section .order {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    height: 410px;
+    margin-top: 59px;
+    margin-left: 25px;
+    gap: 32px;
+  }
+  .container1 section .order .purchase {
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    height: 322px;
+    gap: 21px;
+    align-items: center;
+    margin-left: 18px;
+    background-color: var(--Background-Variant);
+  }
+  .container1 section .order .purchase .first {
+    margin-left: 18px;
+    margin-top: 28px;
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    align-self: self-start;
+  }
+
+  .container1 section .order .purchase .two {
+    display: flex;
+    justify-content: space-between;
+    width: 399px;
+  }
+  .container1 section .order .purchase .two span {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+  }
+  .container1 section .order .purchase .five {
+    width: 362px;
+    height: 0px;
+    border: 1px solid var(--Outline);
+    display: flex;
+    align-self: center;
+  }
+  .container1 section .order .purchase .six {
+    display: flex;
+    justify-content: space-between;
+    width: 404px;
+  }
+  .container1 section .order .purchase .six span {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+  }
+  .container1 section .order .purchase .seven {
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: rgba(40, 40, 40, 0.7);
+    display: flex;
+    align-self: start;
+    margin-left: 18px;
+  }
+  .container1 section .order a {
+    width: 455px;
+    height: 56px;
+    background-color: var(--Primary);
+    text-decoration: none;
+    margin-left: 19px;
+  }
+  .container1 section .order button {
+    width: 455px;
+    height: 56px;
+    background-color: var(--Primary);
+    text-decoration: none;
+    color: var(--On-Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  /* fooooooooooooter */
+  .footer {
+    width: 1280px;
+    height: 360px;
+    padding: 30px 76px 30px 76px;
+    gap: 24px;
+    background-color: var(--Background-Variant);
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer div {
+    width: 262px;
+    height: 300px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer div h4 {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    margin: 0px;
+  }
+  .footer div ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  .footer div ul li {
+    color: var(--Primary);
+    font-family: var(--Primary-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+  }
+  .footer div:nth-of-type(4) ul li {
+    display: flex;
+    gap: 9px;
+  }
+  .footer div:nth-of-type(4) ul li img {
+    width: 12px;
+    height: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer div:nth-of-type(4) ul li:nth-of-type(1) span {
+    width: 230px;
+  }
+}
